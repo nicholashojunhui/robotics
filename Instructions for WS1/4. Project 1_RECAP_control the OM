@@ -1,0 +1,23 @@
+
+################# Execution Guide #################
+
+1. Open terminal in Ubuntu and run roscore
+
+$ roscore
+
+2. Prepare the setup for the OM: Connect the wires, switch on the power, and manually bring up the OM
+
+3. On another terminal, activate the controller
+
+$ roslaunch open_manipulator_controller open_manipulator_controller.launch
+
+4. On another terminal, ROSRUN your codes
+
+$ rosrun robotics Project1.py
+
+*ensure that your codes are in the src folder of your robotics package
+*ensure you have given permissions to your python files (1. cd to directory; 2. chmod +x your_codes.py)
+
+***Hints: Use control_om.py as a template to build your codes; you will also need to use rospy.sleep() codes in between each step.
+
+

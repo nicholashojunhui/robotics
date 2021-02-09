@@ -1,0 +1,32 @@
+﻿
+#######################################################
+###################### Project 2 ######################
+#######################################################
+
+1. Connect the relevant sensors and output to the Arduino board (i.e. light, temperature, button, LED, Buzzer). Connect the board to the PC
+
+2. Use python file: “robotwithsensors1.py” as a template and edit it for Project 2 (refer to Slides 82 to 85 for requirements and conditions)
+
+3. Once "Project2.py" is ready, connect OM and PC with the USB extension cable
+
+4. Connect OM with the power supply cable
+
+5. Activate roscore and run the controller launch on separate terminals
+
+$ roscore
+
+$ roslaunch open_manipulator_controller open_manipulator_controller.launch
+
+6. Open terminal and cd to the correct directory to where you put your python files:
+
+$ cd ~/Desktop 
+for example
+
+7. Open new Terminal and run the python file:
+
+$ python Project2.py
+
+8. Test and check if the robot movements respond correctly to your sensory inputs according to the given requirements and conditions
+
+
+
