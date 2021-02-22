@@ -1,0 +1,14 @@
+
+1. Change to the source space directory of the catkin workspace:
+
+$ cd ~/catkin_ws/src
+
+2. Git Clone the Robotics package:
+
+$ git clone https://github.com/nicholashojunhui/robotics.git
+
+3. Build the packages in the catkin workspace:
+
+$ cd ~/catkin_ws && catkin_make
+
+4. Go to catkin_ws/src/robotics/src and make all python files executable
