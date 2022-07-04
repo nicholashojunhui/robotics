@@ -13,7 +13,7 @@ After which, prepare the setup for the OM: Connect the wires, switch on the powe
 
 $ roslaunch open_manipulator_controller open_manipulator_controller.launch
 
-***You have to do Steps 1 and 2 first before you can control the virtual robot via the following various methods
+***You have to do Steps 1 and 2 first before you can control the robot via the following various methods
 
 ############### ROS BASICS (For OM) ###############
 Open new terminal and try the following (one by one):
