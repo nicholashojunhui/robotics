@@ -15,8 +15,8 @@ def callback(msg):				#define a function called 'callback' that receives a param
 
 def talker():
 	rospy.init_node('OM_publisher')	#Initiate a Node called 'OM_publisher'
-	set_joint_position = rospy.ServiceProxy('/goal_joint_space_path', SetJointPosition)
-        set_gripper_position = rospy.ServiceProxy('/goal_tool_control', SetJointPosition)
+	set_joint_position = rospy.ServiceProxy('/open_manipulator/goal_joint_space_path', SetJointPosition)
+        set_gripper_position = rospy.ServiceProxy('/open_manipulator/goal_tool_control', SetJointPosition)
 	
 	while not rospy.is_shutdown():
 		joint_position = JointPosition()
@@ -28,7 +28,7 @@ def talker():
 		gripper_position.position =  [0.01]	# -0.01 for fully close and 0.01 for fully open
 		respg2 = set_gripper_position('planning_group',gripper_position, 3)
 
-		sub_joint_state = rospy.Subscriber('/joint_states', JointState, callback)
+		sub_joint_state = rospy.Subscriber('/open_manipulator/joint_states', JointState, callback)
 
 if __name__== '__main__':
 	try:
