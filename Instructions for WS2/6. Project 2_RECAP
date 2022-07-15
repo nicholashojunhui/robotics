@@ -26,6 +26,10 @@ for example
 
 $ python Project2.py
 
+***If you encounter permission issues, type command:
+$ sudo chmod a+rw /dev/ttyACM0
+$ sudo chmod a+rw /dev/ttyACM1
+
 8. Test and check if the robot movements respond correctly to your sensory inputs according to the given requirements and conditions
 
 
