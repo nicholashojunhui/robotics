@@ -4,7 +4,7 @@ from pyfirmata import Arduino, util
 import time
 
 #remember to change the ACM to the correct number
-board = Arduino('/dev/ttyACM0')
+board = Arduino('/dev/ttyACM1')
 
 it = util.Iterator(board)
 it.start()
