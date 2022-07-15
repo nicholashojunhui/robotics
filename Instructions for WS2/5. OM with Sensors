@@ -26,6 +26,10 @@ for example
 
 $ python robotwithsensors1.py
 
+***If you encounter permission issues, type command:
+$ sudo chmod a+rw /dev/ttyACM0
+$ sudo chmod a+rw /dev/ttyACM1
+
 This is a simple programme to read data from the 3 sensors and the OM motor outputs will be triggered based on the inputs from these sensors
 
 Test and observe the robot movements as you:
@@ -38,6 +42,10 @@ Test and observe the robot movements as you:
 8. Do the same for the given python file:
 
 $ python robotwithsensors2.py
+
+***If you encounter permission issues, type command:
+$ sudo chmod a+rw /dev/ttyACM0
+$ sudo chmod a+rw /dev/ttyACM1
 
 
 
