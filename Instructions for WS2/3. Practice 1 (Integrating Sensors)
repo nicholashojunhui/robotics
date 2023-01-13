@@ -1,0 +1,30 @@
+
+Using the previous examples as references, develop a new python file:
+
+IntegratingSensors.py
+
+For this practice, you will learn how to control desirable outputs based on the sensors’ input. Connect an LED bulb to the Arduino board as demonstrated in the TestLED example; this LED bulb will be simulating the output for this practice.
+
+Your inputs will be utilizing the light, analog temperature and button sensors. Refer to the conditions in the table in Slide 65.
+
+############################################################################
+
+Recap on Configuration:
+
+1. Ensure your board is disconnected from your PC first. Prepare Light, Temperature (Gravity LM35 Analog type) and button sensors, and connect them to the Arduino board.
+
+2. Connect the board with the PC using the USB cable; you do not need to use the Arduino IDE software
+
+3. Open terminal and cd to the correct directory to where you put your python files:
+
+$ cd ~/Desktop 
+for example
+
+4. Open new Terminal and run the python file:
+
+$ python3 integratingsensors.py
+
+This is a simple programme to read data from the 3 sensors and the output will be triggered based on the inputs from these sensors
+
+############################################################################
+

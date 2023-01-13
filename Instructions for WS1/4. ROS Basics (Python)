@@ -1,0 +1,40 @@
+﻿
+(A) Steps for moving the turtlebot based on input velocities:
+
+1. Open a new terminal window (Ctrl + Alt + t) and enter
+
+$ roscore
+
+2. Run turtlesim_node in the turtlesim package; Open a new terminal window and enter:
+
+$ rosrun turtlesim turtlesim_node
+
+3. Open new terminal and type the following:
+
+$ rosrun robotics move_turtle.py 1.0 1.57
+
+This code makes the turtle moves in a circle. You can change the input values to your liking
+
+*ensure that your codes are in the src folder of your robotics package
+*ensure you have given permissions to your python files (1. cd to directory; 2. chmod +x your_codes.py)
+
+
+(B) Steps for moving the turtlebot based on input velocities and position:
+
+1. Open a new terminal window (Ctrl + Alt + t) and enter
+
+$ roscore
+
+2. Run turtlesim_node in the turtlesim package; Open a new terminal window and enter:
+
+$ rosrun turtlesim turtlesim_node
+
+3. Open new terminal and type the following:
+
+$ rosrun robotics move_distance.py 1.0 0.0 8.0
+
+This code makes the turtle moves forward until x = 8.0m at a velocity of 1 m/s. You can change the input values to your liking. Note that the initial position of the turtle is [x=5.54, y=5.54, theta=0.0]
+
+*ensure that your codes are in the src folder of your robotics package
+*ensure you have given permissions to your python files (1. cd to directory; 2. chmod +x your_codes.py)
+
